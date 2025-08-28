@@ -1,0 +1,39 @@
+Component Designator;Value/Name;Footprint;Qty;URL;NOTES
+Required Components;;;;;
+C1,C2,C3,C7,C15;100nF;C1206;5;https://www.electrokit.com/en/kondensator-1206-x7r-100nf-10;
+C4,C5,C14;10uF;CAP-D5.0mm-RADIAL;3;https://www.electrokit.com/en/el.lyt-10uf-50v-85c-5x11mm;
+C8;47uF;CAP-D5.0mm-RADIAL;1;https://www.electrokit.com/en/el.lyt-47uf-16v-85c-5x11mm;
+C11;1uF;CAP-D5.0mm-RADIAL;1;https://www.electrokit.com/en/el.lyt-1uf-50v-85c-5x11mm;
+C13;1uF;CAP-D5.0mm-RADIAL-AUDIO;1;https://www.electrokit.com/en/el.lyt-1uf-50v-105c-5x11mm;CONSIDER USING HIGH QUALITY CAP
+C12;47nF;CAP-RADIAL-DISC-5.08mm;1;https://www.electrokit.com/en/keramisk-47nf-50v-x7r-5.08mm;
+C16;100uF;CAP-D6.0mm-RADIAL;1;https://www.electrokit.com/en/el.lyt-100uf-25v-85c-6x12mm;CONSIDER USING HIGH QUALITY CAP
+J1, J2;3.5mm_audio_header;AUDIO-TH_PJ324_3.5mm;2;https://www.electrokit.com/en/3.5mm-jack-stereo-chassie/pcb-1;
+L2;47uH;L_AXIAL-0.6;1;https://www.electrokit.com/en/drossel-47uh;
+R1;4k7?;R1206;1;https://www.electrokit.com/en/motstand-4.7kohm-0.25w-smd-1206;
+R2,R7,R9,R10,R12;1k?;R1206;5;https://www.electrokit.com/en/motstand-1kohm-0.25w-smd-1206;
+R3,R4;100?;R1206;2;https://www.electrokit.com/en/motstand-100ohm-0.25w-smd-1206;
+R5,R6;100k?;R1206;2;https://www.electrokit.com/en/motstand-100kohm-0.25w-smd-1206;
+R11;5.1?;R1206;1;https://www.electrokit.com/en/motstand-5.1ohm-0.25w-smd-1206;USED FOR OUTPUT FILTERING, FEEL FREE TO ALTER THIS AND C5  TO YOUR LIKING
+U7;100k?_TRIMPOT;TRIMPOT-2.54mm_1x3;1;https://www.electrokit.com/en/trimpot-3266y-100k-10412-varv;
+R8;10k?_TRIMPOT;PT-10_HORIZONTAL_MOUNT;1;https://www.electrokit.com/en/trimpot-pt-10-10kohm-liggande;
+R8-2;THUMBWHEEL;;1;https://www.electrokit.com/en/ratt-for-pt-10-trimpotentiometer-svart;THUMBWHEEL FOR PT10
+U1;ARDUINO_NANO;TH_NANO_2.54mm;1;https://www.electrokit.com/en/arduino-nano;YOU CAN BUY ANY ARDUINO NANO-COMPATIBLE DEVICE
+U1-HDR;FEMALE-PINS;HDR-2.54mm_1X40;1;https://www.electrokit.com/en/hylslist-2.54mm-1x40p;FOR NANO, CUT TO LENGTH, 2 PCS OF 15 PINS
+U2;MCP4921-E/P;DIP-8;1;https://www.electrokit.com/en/mcp4921-e/p-dip-8-1ch-12-bit-dac;
+U3;MCP3201CI/P;DIP-8;1;https://www.electrokit.com/en/mcp3201-ci/p-dip-8-1ch-12-bit-adc;
+U6;TLV2462CP;DIP-8;1;https://www.electrokit.com/en/tlv2462cp-dip-8-rro-dual-op-amp;
+SOCKETS;DIL-SOCKET_8-PIN;DIL-8;3;https://www.electrokit.com/en/dil-hallare-8-pin;SEMI-OPTIONAL, BUT RECOMMENDED
+;;;;;
+;;;;;
+;;;;;
+Optional;;;;;
+H1,H2,H3;BUTTON_HEADER;HDR-2.54mm_1x2;3;;USE THE OFF-CUTS FROM THE 1X40 HEADERS FOR NANO/DFPlayer
+H4;LED_HEADER;HDR-2.54mm_1x2;1;;
+H5;INPUT_VOLTAGE_HEADER;HDR-2.54mm_1x2;1;;
+H8;POT_HEADER;HDR-2.54mm_1x3;1;;
+L1;FERRITE BEAD 600OHM@100MHZ;L1206;1;https://www.electrokit.com/en/ferrit-smd-1206-600ohm-100mhz;
+Q1;2N2222;TO-92-3;1;https://www.electrokit.com/en/2n2222a-to-92-npn-40v-600ma;
+S1,S2,S3;SMD_BUTTON;SW-SMD-L6.0-W3.5;3;https://www.electrokit.com/en/tryckknapp-smd-3x6mm;THESE SHOULD FIT, BUT NOT VERIFIED YET
+USB1;MICRO-USB-HDR;MICRO-USB-SMD_MICRO-USB-A9;1;https://www.electrokit.com/en/usb-micro-b-kontakt-smd;NOT YET VERIFIED TO FIT
+U4;DFPlayer_DFR0299;DFPLAYER_DFR0299;1;https://www.electrokit.com/en/mini-mp3-spelare-microsd;
+U4-HDR;FEMALE PINS;HDR-2.54mm_1X40;1;https://www.electrokit.com/en/hylslist-2.54mm-1x40p;FOR DFR, CUT TO LENGTH 2 PCS 8 PINS
