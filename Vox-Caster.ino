@@ -226,26 +226,23 @@ void setup() {
 
 void loop() {
   static constexpr uint16_t debounceTimer = 300;
-
   uint32_t currentTime = millis();
-  static uint32_t lastButton1Press;
-  static uint32_t lastButton2Press;
-  static uint32_t lastButton3Press;
+  static uint32_t lastButtonPress;
   static uint8_t lastfile1 = 1;
   static uint8_t lastfile2 = 1;    
   static uint32_t llu;
   static bool ledstat = 0;
 
-  if(((currentTime-lastButton1Press)>=debounceTimer)){
+  if(((currentTime-lastButtonPress)>=debounceTimer)){
     if((digitalRead(buttonPin1) == 0)){
          button1Call();
-        lastButton1Press = currentTime;
+        lastButtonPress = currentTime;
     } else if((digitalRead(buttonPin2) == 0)){
         button2Call(&lastfile1);
-        lastButton2Press = currentTime;
+        lastButtonPress = currentTime;
     } else if(digitalRead(buttonPin3) == 0){
         button3Call(&lastfile2);
-        lastButton3Press = currentTime;
+        lastButtonPress = currentTime;
     }
   }
 
