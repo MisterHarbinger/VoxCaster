@@ -27,7 +27,7 @@ A quick demo can be found on YouTube, [HERE](https://www.youtube.com/watch?v=ovI
 - If the Power bank shuts off after a few seconds, read the "Important Note" section below.
 ### 5. Adjust the controls
 - Adjust the mic sensitivity and volume potentiometers clockwise until you’re satisfied with the sound.
-- By befault, the code applies a light modulation effect automatically, so no buttons, potentiometer, or extra setup is required.
+- By default, the code applies a light modulation effect automatically, so no buttons, potentiometer, or extra setup is required.
 
 
 ### Important Note
