@@ -7,6 +7,9 @@ This project is an Arduino Nano-based voice modulator. The name "Vox Caster" is 
 In addition, there is an option to add a rudimentary soundboard based on DFRobot's DFPlayer Mini MP3 player.  
 Some components may seem unusual; they were partly chosen based on what I had available at home, but should still be easy to find. 
 
+### Demo
+A quick demo can be found on YouTube, [HERE](https://www.youtube.com/watch?v=ovIH7ZAc8B0).
+
 ## Simple Quick Start
 ### 1. Flash the Arduino Nano using the sketch from this repo.
 - Download the provided VoxCaster.ino file.
