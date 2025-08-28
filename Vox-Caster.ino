@@ -236,20 +236,18 @@ void loop() {
   static uint32_t llu;
   static bool ledstat = 0;
 
-  if (((currentTime-lastButton1Press)>=debounceTimer) && (digitalRead(buttonPin1) == 0)) { 
-    button1Call();
-    lastButton1Press = currentTime;
-  }  
-
-  if (((currentTime-lastButton2Press)>=debounceTimer) && (digitalRead(buttonPin2) == 0)) {
-    button2Call(&lastfile1);
-    lastButton2Press = currentTime;
-  }  
-
-  if (((currentTime-lastButton3Press)>=debounceTimer) && (digitalRead(buttonPin3) == 0)) {
-    button3Call(&lastfile2); 
-    lastButton3Press = currentTime;    
-  }      
+  if(((currentTime-lastButton1Press)>=debounceTimer)){
+    if((digitalRead(buttonPin1) == 0)){
+         button1Call();
+        lastButton1Press = currentTime;
+    } else if((digitalRead(buttonPin2) == 0)){
+        button2Call(&lastfile1);
+        lastButton2Press = currentTime;
+    } else if(digitalRead(buttonPin3) == 0){
+        button3Call(&lastfile2);
+        lastButton3Press = currentTime;
+    }
+  }
 
 /*LEDControl*/
     if (((currentTime-llu)>=800)) {
