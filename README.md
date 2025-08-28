@@ -41,9 +41,9 @@ Without any LEDs connected, the current draw of the module varies between 30-60m
 
 ## Using the DFPlayer Mini
 As was previously stated, a simple soundboard can be added using DFRobots DFPlayerMini MP3 Player. If you want to use this, add `#define usingDFRobot` to the code. You will also need to add some audio files to a Micro SD card and plug it into the DFPlayer.  
-The audio files should be placed in folders named "1" or "2", and named as 1.mp3, 2.mp3, etc.  
-By default, buttons on S2 and S3 will play a sequential file from either folder "1" or "2" respectively. These can be used to play anything from a soundtrack, sounds from video-games, or pre-recorded lines.  
-For example, if folder 1 contains 1.mp3, 2.mp3, and 3.mp3, pressing S2 will play file 1, then 2, then 3 in order.  
+The audio files should be placed in folders named "01" or "02", and named as 001.mp3, 002.mp3, etc.  
+By default, buttons on S2 and S3 will play a sequential file from either folder "01" or "02" respectively. These can be used to play anything from a soundtrack, sounds from video-games, or pre-recorded lines.  
+For example, if folder 1 contains 001.mp3, 002.mp3, and 003.mp3, pressing S2 will play file 1, then 2, then 3 in order.  
 Using the DFPlayerMini requires two additional libraries, SoftwareSerial and DFRobotDFPlayerMini, ensure these are installed.  
 
 ## Hardware
